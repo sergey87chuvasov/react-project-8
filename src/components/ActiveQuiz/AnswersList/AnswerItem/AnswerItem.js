@@ -6,7 +6,9 @@ const AnswerItem = (props) => {
     <li
       className={classes.AnswerItem}
       onClick={() => props.onAnswerClick(props.answer.id)}
-    ></li>
+    >
+      {props.answer.text}
+    </li>
   );
 };
 
