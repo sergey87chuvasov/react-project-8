@@ -10,6 +10,7 @@ const MenuToggle = (props) => {
   } else {
     cls.push('fa-bars');
   }
+
   return <i className={cls.join(' ')} onClick={props.onToggle} />;
 };
 
